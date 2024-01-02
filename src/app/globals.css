@@ -1,12 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@keyframes borderAnimation {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: green;
+  }
+  50% {
+    border-color: blue;
+  }
+  75% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: red;
+  }
+}
 
+.border-animate {
+  animation: borderAnimation 4s linear infinite;
+}
+
+
+.video-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Ajuste a altura do efeito de opacidade */
+  background: linear-gradient(to bottom, transparent, black);
+}
 
 .cursive {
-  font-family: "Cedarville Cursive", cursive;
+  font-family: 'Sevillana', cursive;
 }
 .welcome-text {
   background: linear-gradient(
@@ -64,6 +95,40 @@
   display: none;
 }
 
-html {
-  scroll-behavior: smooth;
+/* Estilizando a scrollbar para todos os elementos */
+* {
+  /* Parte da scrollbar onde você não está segurando */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(136, 84, 208, 0.7) rgba(74, 36, 109, 0.5);
+}
+
+/* Estilizando a scrollbar para Chrome, Edge e Safari */
+*::-webkit-scrollbar {
+  width: 12px; /* Largura da scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(74, 36, 109, 0.5); /* Cor de fundo da track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(136, 84, 208, 0.7), /* Cor no topo */
+    rgba(74, 36, 109, 0.5) /* Cor na base */
+  );
+  border-radius: 6px; /* Arredondamento das bordas da scrollbar */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(136, 84, 208, 1), /* Cor no topo quando hover */
+    rgba(74, 36, 109, 0.7) /* Cor na base quando hover */
+  );
+}
+
+
+*, html {
+  scroll-behavior: smooth !important;
 }

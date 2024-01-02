@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import StarsCanvas from '@/components/Main/StarsBackground'
+import StarsCanvas from '@/components/VFX/StarsBackground'
 import Menu from '@/components/Menu/Menu'
 import Footer from '@/components/Main/Footer'
 
