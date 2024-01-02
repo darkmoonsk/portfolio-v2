@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio V2
 
-## Getting Started
+Este é o meu projeto de portfólio construído com Next.js, React, TailwindCSS e TypeScript. Ele usa Next.js para renderização do lado do servidor e roteamento, React para construção dos componentes da interface do usuário e TypeScript para tipagem estática. Além das bibliotecas Frame Motion e Three.js para Animações e 3D respectivamente.
 
-First, run the development server:
+## Instalação
+
+Primeiro, clone o repositório:
+
+```bash
+git clone https://github.com/darkmoonsk/portfolio-v2.git
+```
+
+Em seguida, instale as dependências:
+
+```bash
+cd portfolio-v2
+npm install
+```
+
+## Execução
+
+Para iniciar o servidor de desenvolvimento, execute:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Agora você pode acessar o aplicativo em `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O código fonte do projeto está localizado na pasta `src`. Aqui estão alguns dos principais diretórios e arquivos:
 
-## Learn More
+- `components`: Contém os componentes React que compõem a interface do usuário.
+- `app`: Contém os componentes de página do Next.js.
+- `constants`: Contém as constants do projeto.
+- `utils`: Contém funções utilitárias.
 
-To learn more about Next.js, take a look at the following resources:
+## Dependências
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este projeto usa as seguintes dependências:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `@heroicons/react`: Para ícones SVG.
+- `next`: O framework Next.js.
+- `react`: A biblioteca React.
+- `react-dom`: A biblioteca React DOM.
+- `react-icons`: Para ícones React.
+- `@react-three/drei`: Para trabalhar com Three.js no React.
+- `@react-three/fiber`: Para trabalhar com Three.js no React.
+- `@types/node`: Para tipos TypeScript para Node.js.
+- `@types/react`: Para tipos TypeScript para React.
+- `@types/react-dom`: Para tipos TypeScript para React DOM.
+- `autoprefixer`: Para prefixação automática de CSS.
+- `eslint`: Para linting de código JavaScript.
+- `eslint-config-next`: Configuração ESLint para Next.js.
+- `framer-motion`: Para animações.
+- `postcss`: Para transformação de CSS.
+- `react-intersection-observer`: Para observar intersecções de elementos.
+- `tailwindcss`: Para estilos CSS.
+- `three`: Para gráficos 3D.
+- `typescript`: Para tipagem estática.
 
-## Deploy on Vercel
+## Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
