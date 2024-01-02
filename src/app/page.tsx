@@ -1,7 +1,7 @@
 import Encryption from "@/components/Main/Encryption";
-import Portfolio from "@/components/Main/Portfolio";
-import Projects from "@/components/Main/Projects";
-import Skills from "@/components/Main/Skills";
+import Portfolio from "@/components/Portfolio/Portfolio";
+import Projects from "@/components/Projects/Projects";
+import Skills from "@/components/Skills/Skills";
 
 export default function Home() {
   return (

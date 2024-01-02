@@ -1,13 +1,13 @@
 import { Backend_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from "@/constants";
-import SkillData from "../general/SkillData";
-import SkillsText from "../general/SkillsText";
+import SkillData from "./SkillData";
+import SkillsText from "./SkillsText";
 
 function Skills() {
   return (
     <section
       id="skills"
       className="
-        flex flex-col items-center justify-center gap-3 h-full overflow-hidden pb-[450px] py-20
+        flex flex-col items-center justify-center gap-3 h-full overflow-hidden pb-[80px] py-20
         scale-90
     "
     >
@@ -100,7 +100,7 @@ function Skills() {
             loop
             muted
             autoPlay
-            src="/cards-video.webm"
+            src="/videos/cards-video.webm"
           />
         </div>
       </div>

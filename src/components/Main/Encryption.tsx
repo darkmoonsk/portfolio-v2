@@ -48,7 +48,7 @@ function Encryption() {
         <div className="
           cursive text-2xl font-medium text-center text-gray-300
         ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Tenho a segurança e a perfomance do software como parte fundamental do meu trabalho.
         </div>
       </div>
 
@@ -60,7 +60,7 @@ function Encryption() {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="/encryption.webm"
+          src="/videos/encryption.webm"
         />
       </div>
     </div>

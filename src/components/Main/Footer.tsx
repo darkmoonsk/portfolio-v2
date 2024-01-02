@@ -1,20 +1,20 @@
 import {
-  RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
-import { FaYoutube } from "react-icons/fa";
+import { FaAt, FaYoutube } from "react-icons/fa";
+import { SiBloglovin } from "react-icons/si";
 
 function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-4">
+    <div className="w-full h-full bg-transparent border-t-2 border-zinc-500 text-gray-200 shadow-lg p-4">
       <div className="w-full flex flex-col py-3 items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[25]">
             <h3 className="font-bold text-lg">Comunidade</h3>
             <p className="flex flex-row items-center my-4 cursor-pointer">
               <FaYoutube className="text-2xl mr-2" />
@@ -22,41 +22,33 @@ function Footer() {
             </p>
             <p className="flex flex-row items-center my-4 cursor-pointer">
               <RxGithubLogo className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Github</span>
-            </p>
-            <p className="flex flex-row items-center my-4 cursor-pointer">
-              <RxDiscordLogo className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Discord</span>
+              <a href="https://github.com/darkmoonsk" target="_blank"><span className="text-lg ml-2">Github</span></a>
             </p>
           </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[25]">
             <h3 className="font-bold text-lg">Redes Sociais</h3>
             <p className="flex flex-row items-center my-4 cursor-pointer">
-              <FaYoutube className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Instagram</span>
+              <RxLinkedinLogo className="text-2xl mr-2" />
+              <a href="https://www.linkedin.com/in/brunosouzadkm/" target="_blank"><span className="text-lg ml-2">Linkedin</span></a>
             </p>
             <p className="flex flex-row items-center my-4 cursor-pointer">
-              <RxGithubLogo className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Twitter</span>
+              <RxInstagramLogo className="text-2xl mr-2" />
+              <a href="https://www.instagram.com/brunosouzza__/" target="_blank"><span className="text-lg ml-2">Instagram</span></a>
             </p>
             <p className="flex flex-row items-center my-4 cursor-pointer">
-              <RxDiscordLogo className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Linkedin</span>
+              <RxTwitterLogo className="text-2xl mr-2" />
+              <a href="https://twitter.com/brunobotelho10" target="_blank"><span className="text-lg ml-2">Twitter</span></a>
             </p>
           </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[25]">
             <h3 className="font-bold text-lg">Sobre</h3>
             <p className="flex flex-row items-center my-4 cursor-pointer">
-              <FaYoutube className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Youtube</span>
+              <FaAt className="text-2xl mr-2" />
+              <span className="text-lg ml-2">contato@brunosouzadev.com</span>
             </p>
             <p className="flex flex-row items-center my-4 cursor-pointer">
-              <RxGithubLogo className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Github</span>
-            </p>
-            <p className="flex flex-row items-center my-4 cursor-pointer">
-              <RxDiscordLogo className="text-2xl mr-2" />
-              <span className="text-lg ml-2">Discord</span>
+              <SiBloglovin className="text-2xl mr-2" />
+              <a href="https://www.brunosouzadev.com/" target="_blank"><span className="text-lg ml-2">Blog</span></a>
             </p>
           </div>
         </div>

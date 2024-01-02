@@ -13,19 +13,19 @@ function SkillsText() {
           className="welcome-box py-4 px-8 border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] w-5 h-5" />
-          <h1 className="welcome-text text-lg">Lorem ipsum</h1>
+          <h1 className="welcome-text text-lg font-bold">Minhas Habilidades</h1>
       </motion.div>
       <motion.div
         variants={slideInFromLeft(0.5)}
         className="text-3xl text-white font-medium mt-3 text-center mb-4"
       >
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Meu foco é desenvolver aplicações web com os melhores designs e experiências para os usuários.
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.8)}
         className="cursive text-3xl text-gray-200 mb-10 mt-3 text-center"
       >
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Ao longo da minha carreira tenho aprendido e desenvolvido habilidades em diversas áreas e tecnologias, e estou em constante aprendizado e evolução. Aprender é a minha paixão.
       </motion.div>
     </div>
   )
