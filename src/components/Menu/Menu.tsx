@@ -1,4 +1,4 @@
-import { Socials } from "@/app/constants"
+import { Socials } from "@/constants"
 import Logo from "./Logo"
 import Image from "next/image"
 import MenuItem from "./MenuItem"

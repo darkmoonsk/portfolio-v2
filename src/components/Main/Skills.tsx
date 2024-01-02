@@ -1,4 +1,4 @@
-import { Backend_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from "@/app/constants";
+import { Backend_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from "@/constants";
 import SkillData from "../general/SkillData";
 import SkillsText from "../general/SkillsText";
 
