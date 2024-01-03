@@ -11,7 +11,7 @@ function Encryption() {
           variants={slideInFromTop}
           className="text-5xl font-medium text-center text-gray-200"
         >
-          Perfomance
+          Performance
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
           {" "}&{" "}
           </span>
@@ -48,7 +48,7 @@ function Encryption() {
         <div className="
           cursive text-2xl font-medium text-center text-gray-300
         ">
-          Tenho a segurança e a perfomance do software como parte fundamental do meu trabalho.
+          Tenho a segurança e a performance do software como parte fundamental do meu trabalho.
         </div>
       </div>
 
@@ -67,4 +67,4 @@ function Encryption() {
   )
 }
 
-export default Encryption
+export default Encryption;
