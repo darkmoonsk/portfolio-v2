@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import Modal from "../UI/Modal";
+import Text from "../UI/Text";
 
 function PortfolioContent() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,6 @@ function PortfolioContent() {
 
   const toggleModal = () => {
     setShowModal(!showModal);
-    console.log("Cliquei")
   }
 
   return (
@@ -32,7 +32,7 @@ function PortfolioContent() {
             className="welcome-box py-4 px-8 border border-[#7042f88b] opacity-[0.9]"
           >
             <SparklesIcon className="text-[#b49bff] mr-[10px] w-5 h-5" />
-            <h1 className="welcome-text text-base md:text-lg">Desenvolvedor Fullstack</h1>
+            <h1 className="welcome-text text-base md:text-lg" id="about-me">Desenvolvedor Fullstack</h1>
           </motion.div>
           <motion.div
           variants={slideInFromLeft(0.5)}
@@ -50,7 +50,7 @@ function PortfolioContent() {
         >
           Tenho {currentYear - 1997} anos e sou Engenheiro de Software com{" "}
           {currentYear - 2021} anos de experiencia trabalhando com Desenvolvimento
-          Fullstack.
+          Fullstack usando <Text tag="span" theme="default">React, JavaScript, Typescript, Next e Node.</Text>
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1.1)}
