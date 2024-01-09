@@ -7,6 +7,14 @@ function Projects() {
     "
     id="projects"
     >
+      <video 
+        autoPlay
+        muted
+        loop
+        className="rotate-180 absolute opacity-55 w-full z[-1] object-cover"
+      >
+        <source src="/videos/blackhole.webm" type="video/webm" />
+      </video>
       <h1 className="
         text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20
       ">

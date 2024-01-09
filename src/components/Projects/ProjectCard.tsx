@@ -25,7 +25,7 @@ function ProjectCard({ title, description, src, link, repo }: ProjectCardProps) 
         "/>
       </a>
       <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">
+        <h1 className="text-2xl font-semibold fire-text">
           {title}
         </h1>
         <p className="mt-2 text-gray-300">{description}</p>
