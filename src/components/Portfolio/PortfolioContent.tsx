@@ -29,10 +29,10 @@ function PortfolioContent() {
         <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
           <motion.div
             variants={slideInFromTop}
-            className="welcome-box py-4 px-8 border border-[#7042f88b] opacity-[0.9]"
+            className="welcome-box py-4 px-8 border border-[#4824b48b] font-black opacity-[0.9]"
           >
-            <SparklesIcon className="text-[#b49bff] mr-[10px] w-5 h-5" />
-            <h1 className="welcome-text text-base md:text-lg" id="about-me">Desenvolvedor Fullstack</h1>
+            <SparklesIcon className="text-[#a285fa] mr-[10px] w-5 h-5" />
+            <h1 className="welcome-text text-base md:text-lg font-semibold" id="about-me">Desenvolvedor Fullstack</h1>
           </motion.div>
           <motion.div
           variants={slideInFromLeft(0.5)}
