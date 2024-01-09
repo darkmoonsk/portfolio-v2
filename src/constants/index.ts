@@ -108,14 +108,14 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "Java Script",
+    skill_name: "JavaScript",
     Image: "/icons/js.png",
     width: 65,
     height: 65,
   },
   {
-    skill_name: "Tailwind Css",
-    Image: "/icons/tailwind.png",
+    skill_name: "Three.js",
+    Image: "/icons/threejs.svg",
     width: 80,
     height: 80,
   },
