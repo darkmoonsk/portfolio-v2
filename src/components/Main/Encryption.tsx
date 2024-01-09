@@ -53,13 +53,16 @@ function Encryption() {
       </div>
 
       <div className="w-full flex items-start justify-center absolute">
+        <div
+          className="absolute w-full h-full bg-gradient-to-b from-black via-transparent to-black opacity-75"
+        />
         <video 
           muted
           autoPlay
           loop
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-auto opacity"
           src="/videos/encryption.webm"
         />
       </div>
