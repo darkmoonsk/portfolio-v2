@@ -24,12 +24,12 @@ function PortfolioContent() {
       <motion.div
         initial={"hidden"}
         animate={"visible"}
-        className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+        className="flex flex-row items-center justify-center px-2 sm:px-20 mt-40 w-full z-[20]"
       >
-        <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+        <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center sm:text-start">
           <motion.div
             variants={slideInFromTop}
-            className="welcome-box py-4 px-8 border border-[#4824b48b] font-black opacity-[0.9]"
+            className="welcome-box self-center sm:self-auto py-4 px-8 border border-[#4824b48b] font-black opacity-[0.9]"
           >
             <SparklesIcon className="text-[#a285fa] mr-[10px] w-5 h-5" />
             <h1 className="welcome-text text-base md:text-lg font-semibold" id="about-me">Desenvolvedor Fullstack</h1>
@@ -55,7 +55,7 @@ function PortfolioContent() {
         <motion.a
           variants={slideInFromLeft(1.1)}
           onClick={toggleModal}
-          className="p-2 button-primary text-center fire-text cursor-pointer rounded-lg max-w-[200px]"
+          className="px-12 py-2 button-primary self-center sm:self-auto text-center fire-text cursor-pointer rounded-lg max-w-[200px]"
         >
           Saiba mais!
         </motion.a>
@@ -63,14 +63,13 @@ function PortfolioContent() {
         
         <motion.div
           variants={slideInFromRight(0.8)}
-          className="w-full h-full flex justify-center items-center"
+          className="hidden md:flex w-full h-full  justify-center items-center"
         >
           <Image 
             src="/mainIconsdark.svg"
             width={650}
             height={650}
             alt="Work Icons"
-            className="hidden md:inline"
           />
         </motion.div>
       </motion.div>
