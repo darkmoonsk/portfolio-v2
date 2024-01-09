@@ -55,7 +55,7 @@ function PortfolioContent() {
         <motion.a
           variants={slideInFromLeft(1.1)}
           onClick={toggleModal}
-          className="p-2 button-primary text-center - text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="p-2 button-primary text-center fire-text cursor-pointer rounded-lg max-w-[200px]"
         >
           Saiba mais!
         </motion.a>
