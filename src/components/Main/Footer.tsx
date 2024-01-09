@@ -53,7 +53,7 @@ function Footer() {
           </div>
         </div>
         
-        <div className="mt-20 text-lg text-center">
+        <div className="mt-20 text-lg purple-fire-text text-center">
           <p>© {year} Bruno Souza - Todos os direitos reservados</p>
         </div>
       </div>
