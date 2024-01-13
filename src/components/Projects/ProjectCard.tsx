@@ -1,29 +1,31 @@
+"use client"
+import { cn } from "@/utils"
 import Image from "next/image"
 import Link from "next/link"
+import { useRef, useState } from "react"
+import VideoPreview from "./VideoPreview"
 
 interface ProjectCardProps {
   title: string
   description: string
   src: string
+  hoverSrc: string
   repo: string
   link: string
 }
 
-function ProjectCard({ title, description, src, link, repo }: ProjectCardProps) {
+function ProjectCard({ title, description, src, hoverSrc, link, repo }: ProjectCardProps) {
+
   return (
     <div className="
       relative overflow-hidden w-full rounded-lg shadow-lg border-[#2A0E61]
     ">
-      <a href={link} target="_blank">
-        <Image 
-          src={src}
-          alt={title}
-          width={1000}
-          height={1000}
-          className="
-            w-full object-contain hover:scale-110 transition duration-500 cursor-pointer
-        "/>
-      </a>
+      <VideoPreview 
+        src={src}
+        hoverSrc={hoverSrc}
+        link={link}
+        title={title}
+      />
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold fire-text">
           {title}

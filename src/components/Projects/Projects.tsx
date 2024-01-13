@@ -25,6 +25,7 @@ function Projects() {
       ">
         <ProjectCard 
           src="/projects/blog.png"
+          hoverSrc="/projects/videos/blog.webm"
           link="https://www.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/blog"
           title="Blog Moderno com Next.js e TailwindCSS"
@@ -32,6 +33,7 @@ function Projects() {
         />
         <ProjectCard
           src="/projects/fernanda.png"
+          hoverSrc="/projects/videos/fernanda.webm"
           link="https://www.fernandaschubert.com/"
           repo="https://github.com/darkmoonsk/project-nanda"
           title="Fernanda Schubert - Site de captura para professora de idiomas"
@@ -39,6 +41,7 @@ function Projects() {
         />
         <ProjectCard
           src="/projects/ministry.png"
+          hoverSrc="/projects/videos/ministry.webm"
           link="https://ministry.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/app_ministry"
           title="Ministry - Gestão de relatórios"
@@ -46,6 +49,7 @@ function Projects() {
         />
         <ProjectCard
           src="/projects/disneyplus.png"
+          hoverSrc="/projects/videos/disneyplus.webm"
           link="https://disneyplus.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/disney-plus"
           title="Front-end do Disney Plus"
@@ -53,6 +57,7 @@ function Projects() {
         />
         <ProjectCard
           src="/projects/hadasclima.png"
+          hoverSrc="/projects/videos/hadasclima.webm"
           link="https://proyecto-hadasclima.vercel.app/"
           repo="https://github.com/darkmoonsk/project-weather"
           title="HadasClima - Informações meteorológicas"
@@ -60,6 +65,7 @@ function Projects() {
         />
         <ProjectCard
           src="/projects/worldcup.png"
+          hoverSrc="/projects/videos/worldcup.webm"
           link="https://worldcup2022.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/world-cup-2022"
           title="World Cup 2022 - Simulador da Copa Mundo de 2022"
