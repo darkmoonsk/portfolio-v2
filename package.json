@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dotlottie/react-player": "^1.6.15",
     "@heroicons/react": "^2.1.1",
     "next": "14.0.4",
     "react": "^18",
