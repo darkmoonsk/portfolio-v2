@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Modal from "../UI/Modal";
 import Text from "../UI/Text";
+import AstronautAnimation from "../Animations/AstronautAnimation";
 
 function PortfolioContent() {
   const currentYear = new Date().getFullYear();
@@ -69,12 +70,7 @@ function PortfolioContent() {
           variants={slideInFromRight(0.8)}
           className="hidden md:flex w-full h-full  justify-center items-center"
         >
-          <Image 
-            src="/mainIconsdark.svg"
-            width={650}
-            height={650}
-            alt="Work Icons"
-          />
+          <AstronautAnimation />
         </motion.div>
       </motion.div>
     </>
