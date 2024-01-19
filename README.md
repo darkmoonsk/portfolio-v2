@@ -1,6 +1,6 @@
 # Portfolio V2
 
-![portfolio](https://github.com/darkmoonsk/portfolio-v2/assets/101902194/5aa6eb0a-d8ef-4426-bff1-b3a97c822eae)
+![portfolio](https://github.com/darkmoonsk/portfolio-v2/assets/101902194/a0773ec6-3bcd-427b-948d-ba8dfdeae6a1)
 
 Este é o meu projeto de portfólio construído com Next.js, React, TailwindCSS e TypeScript. Ele usa Next.js para renderização do lado do servidor e roteamento, React para construção dos componentes da interface do usuário e TypeScript para tipagem estática. Além das bibliotecas Frame Motion e Three.js para Animações e 3D respectivamente.
 
