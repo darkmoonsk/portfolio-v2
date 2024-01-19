@@ -1,4 +1,4 @@
-import { DotLottiePlayer } from "@dotlottie/react-player";
+import { DotLottiePlayer, Controls } from "@dotlottie/react-player";
 
 
 function AstronautAnimation() {
@@ -8,7 +8,9 @@ function AstronautAnimation() {
         src="/animations/astronaut.lottie"
         autoplay
         loop
-      />
+      >
+        
+      </DotLottiePlayer>
     </div>
   );
 }
