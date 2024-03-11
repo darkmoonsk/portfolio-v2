@@ -47,17 +47,21 @@ function VideoPreview({ src, hoverSrc, link, title }: VideoPreviewProps) {
           href={link} 
           target="_blank"
           >
-            <video 
-              ref={videoRef}
-              autoPlay
-              muted
-              loop
-              className="
-                absolute top-0 left-0 w-full hidden object-cover
-              "
-            >
-              <source src={hoverSrc} type="video/webm" />
-            </video>
+            {
+              hoverSrc !== "" ?? (
+                <video 
+                  ref={videoRef}
+                  autoPlay
+                  muted
+                  loop
+                  className="
+                    absolute top-0 left-0 w-full hidden object-cover
+                  "
+                >
+                  <source src={hoverSrc} type="video/webm" />
+                </video>
+              )
+            }
           </a>
     </div>
   )
