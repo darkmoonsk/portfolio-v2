@@ -1,15 +1,12 @@
 "use client"
-import { cn } from "@/utils"
-import Image from "next/image"
 import Link from "next/link"
-import { useRef, useState } from "react"
 import VideoPreview from "./VideoPreview"
 
 interface ProjectCardProps {
   title: string
   description: string
   src: string
-  hoverSrc: string
+  hoverSrc?: string
   repo: string
   link: string
 }
@@ -20,9 +17,10 @@ function ProjectCard({ title, description, src, hoverSrc, link, repo }: ProjectC
     <div className="
       relative overflow-hidden w-full rounded-lg shadow-lg border-[#2A0E61]
     ">
+
       <VideoPreview 
         src={src}
-        hoverSrc={hoverSrc}
+        hoverSrc={hoverSrc || ""}
         link={link}
         title={title}
       />
@@ -44,4 +42,4 @@ function ProjectCard({ title, description, src, hoverSrc, link, repo }: ProjectC
   )
 }
 
-export default ProjectCard
+export default ProjectCard;

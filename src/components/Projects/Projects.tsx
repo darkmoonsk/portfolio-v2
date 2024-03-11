@@ -24,6 +24,22 @@ function Projects() {
         h-full w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20 px-4 items-center justify-center
       ">
         <ProjectCard 
+          src="/projects/dinoapi.jpg"
+          link="https://dinoapi.brunosouzadev.com/"
+          repo="https://github.com/darkmoonsk/dinoapi"
+          title="Dinoapi - API de dados sobre dinossauros"
+          description="Uma API que fornece dados históricos sobre diversos dinossauros. Construida usando o banco de dados PaleoDB, o maior banco de dados open-source de paleontologia do mundo para obter as informações. Os dados retornados sempre serão fáceis de entender, e úteis para pessoas que não são paleontólogas.
+          "
+        />
+        <ProjectCard 
+          src="/projects/rapidtalks.jpg"
+          hoverSrc="/projects/videos/rapidtalks.webm"
+          link="https://rapidtalks.brunosouzadev.com/"
+          repo="https://github.com/darkmoonsk/rapid-talks"
+          title="RapidTalks - Plataforma de chat em tempo real"
+          description="Rapid Talks é uma POC (proof of concept) de uma aplicação de chat dinâmica, interativa desenvolvida com o objetivo de realizar a comunicação em tempo real. Utilizando uma combinação de tecnologias modernas e práticas de desenvolvimento avançadas."
+        />
+        <ProjectCard 
           src="/projects/blog.png"
           hoverSrc="/projects/videos/blog.webm"
           link="https://www.brunosouzadev.com/"
