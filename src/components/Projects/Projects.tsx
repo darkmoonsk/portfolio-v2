@@ -21,7 +21,7 @@ function Projects() {
         text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20
       "
       >
-        Meus Projetos
+        My Projects
       </h1>
       <div
         className="
@@ -29,22 +29,40 @@ function Projects() {
       "
       >
         <ProjectCard
+          src="/projects/kmi-portfolio.png"
+          link="https://kmiportafolio.brunosouzadev.com/"
+          repo="https://github.com/darkmoonsk/kmi-portfolio"
+          title="Cosplayer Portfolio"
+          description={[
+            "A modern portfolio for a cosplayer built with Next.js, Tailwind, shadcn/ui. The portfolio is a modern and responsive website that showcases the cosplayer's work and projects.",
+          ]}
+        />
+        <ProjectCard
+          src="/projects/cebuano-learning-app.png"
+          link="https://cebuanolearningapp.brunosouzadev.com/"
+          repo="https://github.com/darkmoonsk/cebuano-learning-app"
+          title="Cebuano Learning APP"
+          description={[
+            "A modern learning experience for Cebuano/Bisaya vocabulary learning built with Next.js, Tailwind, shadcn/ui, and MongoDB. Learners review curated flashcards with an adaptive spaced repetition algorithm, track their progress over time, and manage their own accounts.",
+          ]}
+        />
+        <ProjectCard
           src="/projects/quantic-learn.png"
           link="https://quanticlearn.com/"
-          title="Quantic Learn - Plataforma de aprendizado livre"
+          title="Quantic Learn - Open learning platform"
           description={[
-            "A Quantic Learn é uma plataforma online de aprendizado livre, dedicada à democratização do conhecimento por meio da tecnologia. Nascida da minha crença fundamental de que a tecnologia representa um meio poderoso para proporcionar educação de alta qualidade acessível a todos e como o meu projeto de conclusão da minha graduação em Engenharia de Software.",
-            "É um projeto comprometido com tornar o aprendizado mais acessível e eficaz, permitindo que indivíduos de todas as origens tenham a oportunidade de adquirir conhecimento de maneira transformadora. Atualmente focada no aprendizado do inglês e em breve novos idiomas e áreas do conhecimento.",
+            "Quantic Learn is an online open learning platform dedicated to democratizing knowledge through technology. It was born from my core belief that technology is a powerful means to provide high-quality education accessible to everyone and as my capstone project for my Software Engineering degree.",
+            "It is a project committed to making learning more accessible and effective, allowing individuals from all backgrounds to acquire knowledge in a transformative way. Currently focused on English learning, with more languages and domains coming soon.",
           ]}
         />
         <ProjectCard
           src="/projects/dinoapi.jpg"
           link="https://dinoapi.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/dinoapi"
-          title="Dinoapi - API de dados sobre dinossauros"
+          title="Dinoapi - Dinosaur data API"
           description={[
-            "Uma API que fornece dados históricos sobre diversos dinossauros. Construida usando o banco de dados PaleoDB, o maior banco de dados open-source de paleontologia do mundo para obter as informações",
-            "Os dados retornados sempre serão fáceis de entender, e úteis para pessoas que não são paleontólogas.",
+            "An API that provides historical data about several dinosaurs. Built using the PaleoDB database, the largest open-source paleontology database in the world.",
+            "The returned data is easy to understand and useful for people who are not paleontologists.",
           ]}
         />
         <ProjectCard
@@ -52,9 +70,9 @@ function Projects() {
           hoverSrc="/projects/videos/rapidtalks.webm"
           link="https://rapidtalks.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/rapid-talks"
-          title="RapidTalks - Plataforma de chat em tempo real"
+          title="RapidTalks - Real-time chat platform"
           description={[
-            "Rapid Talks é uma POC (proof of concept) de uma aplicação de chat dinâmica, interativa desenvolvida com o objetivo de realizar a comunicação em tempo real. Utilizando uma combinação de tecnologias modernas e práticas de desenvolvimento avançadas.",
+            "Rapid Talks is a proof of concept of a dynamic, interactive chat application built to enable real-time communication, using a combination of modern technologies and advanced development practices.",
           ]}
         />
         <ProjectCard
@@ -62,57 +80,19 @@ function Projects() {
           hoverSrc="/projects/videos/blog.webm"
           link="https://www.brunosouzadev.com/"
           repo="https://github.com/darkmoonsk/blog"
-          title="Blog Moderno com Next.js e TailwindCSS"
+          title="Modern Blog with Next.js and TailwindCSS"
           description={[
-            "Meu blog pessoal, feito com Next.js, TailwindCSS e Typescript, com o objetivo de compartilhar conhecimento e experiências sobre programação e ciências. Ele possui a visão de CMS Headless.",
+            "My personal blog, built with Next.js, TailwindCSS, and TypeScript, aimed at sharing knowledge and experiences about programming and science. It follows a Headless CMS approach.",
           ]}
         />
-        <ProjectCard
-          src="/projects/fernanda.png"
-          hoverSrc="/projects/videos/fernanda.webm"
-          link="https://www.fernandaschubert.com/"
-          repo="https://github.com/darkmoonsk/project-nanda"
-          title="Fernanda Schubert - Site de captura para professora de idiomas"
-          description={[
-            "Site para uma professora de idiomas, com tradução em alemão, espanhol e português, também conta com um formulário funcional.",
-          ]}
-        />
-        <ProjectCard
-          src="/projects/ministry.png"
-          hoverSrc="/projects/videos/ministry.webm"
-          link="https://ministry.brunosouzadev.com/"
-          repo="https://github.com/darkmoonsk/app_ministry"
-          title="Ministry - Gestão de relatórios"
-          description={[
-            "Aplicativo web para controle de relatórios de serviço de pregação das Testemunhas de Jeová, com autenticação, dashboard do usuário e usa o banco de dados firestore do Firebase.",
-          ]}
-        />
-        {/* <ProjectCard
-          src="/projects/disneyplus.png"
-          hoverSrc="/projects/videos/disneyplus.webm"
-          link="https://disneyplus.brunosouzadev.com/"
-          repo="https://github.com/darkmoonsk/disney-plus"
-          title="Front-end do Disney Plus"
-          description={["Recriação de uma parte do front-end do disney plus com React e styled-components, com o objetivo de praticar o uso de animações, transições e estilização de componentes."]}
-        /> */}
         <ProjectCard
           src="/projects/hadasclima.png"
           hoverSrc="/projects/videos/hadasclima.webm"
           link="https://proyecto-hadasclima.vercel.app/"
           repo="https://github.com/darkmoonsk/project-weather"
-          title="HadasClima - Informações meteorológicas"
+          title="HadasClima - Weather information"
           description={[
-            "Um web app que fornece informações meteorológicas em tempo real, consumindo a api OpenWeather. ",
-          ]}
-        />
-        <ProjectCard
-          src="/projects/worldcup.png"
-          hoverSrc="/projects/videos/worldcup.webm"
-          link="https://worldcup2022.brunosouzadev.com/"
-          repo="https://github.com/darkmoonsk/world-cup-2022"
-          title="World Cup 2022 - Simulador da Copa Mundo de 2022"
-          description={[
-            'Um projeto que foi criado para um desafio de programação de curto prazo e que utiliza React e JavaScript para "simular" os jogos da Copa do Mundo de 2022.',
+            "A web app that provides real-time weather information by consuming the OpenWeather API.",
           ]}
         />
       </div>

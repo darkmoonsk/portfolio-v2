@@ -71,28 +71,25 @@ export const Skill_data = [
     width: 40,
     height: 40,
   },
-
 ];
 
 export const Socials = [
   {
-    name: "Linkedin",
+    name: "LinkedIn",
     src: "/icons/linkedin.png",
     url: "https://www.linkedin.com/in/brunosouzadkm/",
   },
   {
     name: "Blog",
     src: "/icons/blog.ico",
-    url: "https://www.brunosouzadev.com/"
+    url: "https://www.brunosouzadev.com/",
   },
   {
     name: "Github",
     src: "/icons/github-violet.png",
-    url: "https://github.com/darkmoonsk/"
+    url: "https://github.com/darkmoonsk/",
   },
 ];
-
-
 
 export const Frontend_skill = [
   {
@@ -216,10 +213,7 @@ export const Full_stack = [
     width: 50,
     height: 50,
   },
-
 ];
-
-
 
 export const Other_skill = [
   {

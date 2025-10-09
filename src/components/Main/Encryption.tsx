@@ -1,7 +1,7 @@
-"use client"
-import { slideInFromTop } from "@/utils/motion"
-import { motion } from "framer-motion"
-import Image from "next/image"
+"use client";
+import { slideInFromTop } from "@/utils/motion";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 function Encryption() {
   return (
@@ -13,22 +13,25 @@ function Encryption() {
         >
           Performance
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          {" "}&{" "}
+            {" "}
+            &{" "}
           </span>
-          Segurança
+          Security
         </motion.div>
       </div>
-      <div className="
+      <div
+        className="
         flex flex-col items-center justify-center translate-y-14 absolute z-20 w-auto h-auto
-      ">
-        <Image 
+      "
+      >
+        <Image
           src="/LockTop.png"
           alt="Lock top"
           width={50}
           height={50}
           className="translate-y-5 transition-all duration-200 group-hover:translate-y-11"
         />
-        <Image 
+        <Image
           src="/LockMain.png"
           alt="Lock Main"
           width={70}
@@ -37,26 +40,32 @@ function Encryption() {
         />
       </div>
 
-      <div className="
+      <div
+        className="
         welcome-box px-3 py-2 my-5 z-20 border border-[#7042f88b] opacity-[0.9
-      ">
-        <h1 className="
+      "
+      >
+        <h1
+          className="
           welcome-text text-lg text-center text-white
-        ">Encryption</h1>
+        "
+        >
+          Encryption
+        </h1>
       </div>
-      <div className="absolute z-20 bottom-3 px-2">  
-        <div className="
+      <div className="absolute z-20 bottom-3 px-2">
+        <div
+          className="
           cursive text-2xl font-medium text-center text-gray-300
-        ">
-          Tenho a segurança e a performance do software como parte fundamental do meu trabalho.
+        "
+        >
+          I have security and performance as part of my fundamental work.
         </div>
       </div>
 
       <div className="w-full flex items-start justify-center absolute">
-        <div
-          className="absolute w-full h-full bg-gradient-to-b from-black via-transparent to-black opacity-75"
-        />
-        <video 
+        <div className="absolute w-full h-full bg-gradient-to-b from-black via-transparent to-black opacity-75" />
+        <video
           muted
           autoPlay
           loop
@@ -67,7 +76,7 @@ function Encryption() {
         />
       </div>
     </div>
-  )
+  );
 }
 
 export default Encryption;

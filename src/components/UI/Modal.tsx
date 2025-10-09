@@ -10,9 +10,7 @@ interface ModalProps {
 function Modal({ onClose }: ModalProps) {
   return (
     <Backdrop handleClose={onClose}>
-      <div
-        className="fixed top-[100px] left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-[800px] max-h-[500px]"
-      >
+      <div className="fixed top-[100px] left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-[800px] max-h-[500px]">
         <motion.div
           onClick={(e) => e.stopPropagation()}
           variants={dropIn}
@@ -25,10 +23,10 @@ function Modal({ onClose }: ModalProps) {
         "
         >
           <div>
-            <h2 className="text-2xl font-bold">Sobre mim:</h2>
+            <h2 className="text-2xl font-bold">About me:</h2>
             <Image
               src="/bruno.png"
-              alt="Foto de Bruno Souza"
+              alt="Photo of Bruno Souza"
               width={200}
               height={200}
               className="absolute hidden md:inline right-5 top-5 rounded-full"
@@ -36,38 +34,44 @@ function Modal({ onClose }: ModalProps) {
           </div>
           <div className="flex-1 flex flex-col font-semibold drop-shadow-lg gap-2 md:max-w-[75%]">
             <p>
-              Desde muito jovem sou impulsionado por uma intensa curiosidade e uma
-              dedicação ao mundo do desenvolvimento de software e a ciência. Minha
-              paixão pela tecnologia começou com o desenvolvimento de jogos, um
-              campo no qual me aventurei profundamente como freelancer, trabalhando
-              em projetos inovadores de jogos indie.
+              From a very young age, I have been driven by intense curiosity and
+              a dedication to the world of software development and science. My
+              passion for technology began with game development, a field in
+              which I delved deeply as a freelancer, working on innovative indie
+              game projects.
             </p>
             <p>
-              Atualmente, sou um desenvolvedor fullstack, com foco em ReactJS e
-              NodeJS, e estou sempre buscando me aprimorar e aprender novas
-              tecnologias.
+              Currently, I am a fullstack developer focused on ReactJS and
+              NodeJS, and I am always looking to improve and learn new
+              technologies.
             </p>
             <p>
-              Minhas contribuições para os projetos em que participei incluem,
-              criação de sistemas de inteligência artificial avançados (Jogos) até a
-              geração de mapas procedurais (Jogos), o desenvolvimento de interfaces
-              intuitivas e responsivas (Web e Jogos) e o desenvolvimento de sistemas
-              de backend robustos e escaláveis (Web).
+              My contributions to the projects I have participated in range from
+              building advanced artificial intelligence systems (Games) to
+              generating procedural maps (Games), developing intuitive and
+              responsive interfaces (Web and Games), and developing robust and
+              scalable backend systems (Web).
             </p>
             <p>
-              Meu objetivo é me tornar uma referencia técnica na área de dev. de
-              software, além disso mantenho uma paixão viva por Astronomia e
-              Inteligência Artificial, áreas nas quais invisto tempo em pesquisa e
-              colaboração, sempre buscando expandir e compartilhar conhecimento 
-              por diversos meios, 
-              como o <a href="https://www.brunosouzadev.com/" className="text-xl font-bold underline transition-all duration-200 ease-in-out hover:text-slate-300">meu blog</a>.
+              My goal is to become a technical reference in software
+              development. I also maintain a strong passion for Astronomy and
+              Artificial Intelligence, areas in which I invest time in research
+              and collaboration, always seeking to expand and share knowledge
+              through various means, such as{" "}
+              <a
+                href="https://www.brunosouzadev.com/"
+                className="text-xl font-bold underline transition-all duration-200 ease-in-out hover:text-slate-300"
+              >
+                my blog
+              </a>
+              .
             </p>
           </div>
           <button
             className="button-primary w-full mt-2 max-w-[200px] p-3 self-center"
             onClick={onClose}
           >
-            Fechar
+            Close
           </button>
         </motion.div>
       </div>
