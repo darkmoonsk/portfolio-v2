@@ -29,12 +29,13 @@ function Projects() {
       "
       >
         <ProjectCard
-          src="/projects/kmi-portfolio.png"
-          link="https://kmiportafolio.brunosouzadev.com/"
-          repo="https://github.com/darkmoonsk/kmi-portfolio"
-          title="Cosplayer Portfolio"
+          src="/projects/blog.png"
+          hoverSrc="/projects/videos/blog.webm"
+          link="https://www.brunosouzadev.com/"
+          repo="https://github.com/darkmoonsk/blog"
+          title="Modern Blog with Next.js and TailwindCSS"
           description={[
-            "A modern portfolio for a cosplayer built with Next.js, Tailwind, shadcn/ui. The portfolio is a modern and responsive website that showcases the cosplayer's work and projects.",
+            "My personal blog, built with Next.js, TailwindCSS, and TypeScript, aimed at sharing knowledge and experiences about programming and science. It follows a Headless CMS approach.",
           ]}
         />
         <ProjectCard
@@ -44,6 +45,15 @@ function Projects() {
           title="Cebuano Learning APP"
           description={[
             "A modern learning experience for Cebuano/Bisaya vocabulary learning built with Next.js, Tailwind, shadcn/ui, and MongoDB. Learners review curated flashcards with an adaptive spaced repetition algorithm, track their progress over time, and manage their own accounts.",
+          ]}
+        />
+        <ProjectCard
+          src="/projects/kmi-portfolio.png"
+          link="https://kmiportafolio.brunosouzadev.com/"
+          repo="https://github.com/darkmoonsk/kmi-portfolio"
+          title="Cosplayer Portfolio"
+          description={[
+            "A modern portfolio for a cosplayer built with Next.js, Tailwind, shadcn/ui. The portfolio is a modern and responsive website that showcases the cosplayer's work and projects.",
           ]}
         />
         <ProjectCard
@@ -73,16 +83,6 @@ function Projects() {
           title="RapidTalks - Real-time chat platform"
           description={[
             "Rapid Talks is a proof of concept of a dynamic, interactive chat application built to enable real-time communication, using a combination of modern technologies and advanced development practices.",
-          ]}
-        />
-        <ProjectCard
-          src="/projects/blog.png"
-          hoverSrc="/projects/videos/blog.webm"
-          link="https://www.brunosouzadev.com/"
-          repo="https://github.com/darkmoonsk/blog"
-          title="Modern Blog with Next.js and TailwindCSS"
-          description={[
-            "My personal blog, built with Next.js, TailwindCSS, and TypeScript, aimed at sharing knowledge and experiences about programming and science. It follows a Headless CMS approach.",
           ]}
         />
         <ProjectCard
